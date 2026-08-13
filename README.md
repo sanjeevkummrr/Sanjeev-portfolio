@@ -134,9 +134,9 @@ Connect With Me
 
 📧 Email: snkumar3122000@gmail.com
 
-📸 Instagram: Coming Soon
+📸 Instagram: https://www.instagram.com/sanjeevkummrr/
 
-𝕏 X / Twitter: Coming Soon
+𝕏 X / Twitter: https://x.com/sanjeevkummrr/
 
 Future Improvements
 Resume download
