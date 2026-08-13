@@ -46,11 +46,13 @@ export default function GlassHero() {
 
       {/* Top right */}
       <a
-        className="top-link"
-        href="https://www.linkedin.com/"
-        target="_blank"
-        rel="noreferrer"
-      >
+  className="top-link"
+  href="https://www.linkedin.com/in/sanjeevkummrr"
+  target="_blank"
+  rel="noreferrer"
+>
+  LINKEDIN <span>↗</span>
+</a>
         LINKEDIN <span>↗</span>
       </a>
 
@@ -97,46 +99,46 @@ export default function GlassHero() {
       {/* Social links */}
       <aside className="social-links">
         <a
-          href="https://www.instagram.com/"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <strong>◎</strong>
-          <span>INSTAGRAM</span>
-        </a>
+  href="https://www.instagram.com/sanjeevkummrr"
+  target="_blank"
+  rel="noreferrer"
+>
+  <strong>◎</strong>
+  <span>INSTAGRAM</span>
+</a>
 
-        <i />
+<i />
 
-        <a
-          href="https://www.linkedin.com/"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <strong>in</strong>
-          <span>LINKEDIN</span>
-        </a>
+<a
+  href="https://www.linkedin.com/in/sanjeevkummrr"
+  target="_blank"
+  rel="noreferrer"
+>
+  <strong>in</strong>
+  <span>LINKEDIN</span>
+</a>
 
-        <i />
+<i />
 
-        <a
-          href="https://github.com/sanjeevkummrr"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <strong>◉</strong>
-          <span>GITHUB</span>
-        </a>
+<a
+  href="https://github.com/sanjeevkummrr"
+  target="_blank"
+  rel="noreferrer"
+>
+  <strong>◉</strong>
+  <span>GITHUB</span>
+</a>
 
-        <i />
+<i />
 
-        <a
-          href="https://x.com/"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <strong>𝕏</strong>
-          <span>X / TWITTER</span>
-        </a>
+<a
+  href="https://x.com/sanjeevkummrr"
+  target="_blank"
+  rel="noreferrer"
+>
+  <strong>𝕏</strong>
+  <span>X / TWITTER</span>
+</a>
       </aside>
 
       {/* Bottom hint */}
