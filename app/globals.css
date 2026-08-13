@@ -347,17 +347,43 @@ h2 {
   transform: scale(1.08);
 }
 
-.social-links strong {
+.social-links strong.social-icon {
   display: flex;
   align-items: center;
   justify-content: center;
 
-  min-height: 50px;
+  width: 54px;
+  height: 54px;
 
-  font-family: "Albert Sans", sans-serif;
-  font-size: 42px;
-  line-height: 1;
-  font-weight: 700;
+  font-size: 0;
+}
+
+.social-icon svg {
+  width: 43px;
+  height: 43px;
+
+  fill: none;
+  stroke: #101418;
+  stroke-width: 1.8;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+
+  transition: transform 0.25s ease;
+}
+
+.social-links a:hover .social-icon svg {
+  transform: scale(1.1);
+}
+
+/* GitHub */
+.social-links a:nth-of-type(3) .social-icon svg {
+  fill: #101418;
+  stroke: none;
+}
+
+/* X */
+.social-links a:nth-of-type(4) .social-icon svg {
+  stroke-width: 1.8;
 }
 
 .social-links span {
@@ -532,10 +558,15 @@ h2 {
     gap: 3px;
   }
 
-  .social-links strong {
-    min-height: 32px;
-    font-size: 25px;
-  }
+  .social-links strong.social-icon {
+  width: 34px;
+  height: 34px;
+}
+
+.social-icon svg {
+  width: 27px;
+  height: 27px;
+}
 
   .social-links span {
     font-size: 7px;
