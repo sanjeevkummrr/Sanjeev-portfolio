@@ -102,49 +102,84 @@ export default function GlassHero() {
       </section>
 
       {/* Social links */}
-      <aside className="social-links">
-        <a
-          href="https://www.instagram.com/sanjeevkummrr"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <strong>◎</strong>
-          <span>INSTAGRAM</span>
-        </a>
+<aside className="social-links">
 
-        <i />
+  {/* Instagram */}
+  <a
+    href="https://www.instagram.com/sanjeevkummrr"
+    target="_blank"
+    rel="noreferrer"
+    aria-label="Instagram"
+  >
+    <strong className="social-icon">
+      <svg viewBox="0 0 24 24" aria-hidden="true">
+        <rect x="3" y="3" width="18" height="18" rx="5" />
+        <circle cx="12" cy="12" r="4" />
+        <circle cx="17.5" cy="6.5" r="1" className="fill-dot" />
+      </svg>
+    </strong>
+    <span>INSTAGRAM</span>
+  </a>
 
-        <a
-          href="https://www.linkedin.com/in/sanjeevkummrr"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <strong>in</strong>
-          <span>LINKEDIN</span>
-        </a>
+  <i />
 
-        <i />
+  {/* LinkedIn */}
+  <a
+    href="https://www.linkedin.com/in/sanjeevkummrr"
+    target="_blank"
+    rel="noreferrer"
+    aria-label="LinkedIn"
+  >
+    <strong className="social-icon linkedin-icon">
+      <svg viewBox="0 0 24 24" aria-hidden="true">
+        <rect x="3" y="3" width="18" height="18" rx="2" />
+        <path d="M7 10v7" />
+        <path d="M7 7.5v.01" />
+        <path d="M11 17v-4c0-2 1-3 2.5-3s2.5 1 2.5 3v4" />
+        <path d="M11 13c0-2 1-3 2.5-3" />
+      </svg>
+    </strong>
+    <span>LINKEDIN</span>
+  </a>
 
-        <a
-          href="https://github.com/sanjeevkummrr"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <strong>◉</strong>
-          <span>GITHUB</span>
-        </a>
+  <i />
 
-        <i />
+  {/* GitHub */}
+  <a
+    href="https://github.com/sanjeevkummrr"
+    target="_blank"
+    rel="noreferrer"
+    aria-label="GitHub"
+  >
+    <strong className="social-icon">
+      <svg viewBox="0 0 24 24" aria-hidden="true">
+        <path
+          d="M12 2.5a9.5 9.5 0 0 0-3 18.5c.5.1.7-.2.7-.5v-1.8c-2.8.6-3.4-1.2-3.4-1.2-.5-1.1-1.1-1.4-1.1-1.4-.9-.6.1-.6.1-.6 1 0 1.5 1 1.5 1 .9 1.5 2.3 1.1 2.9.8.1-.6.3-1.1.6-1.3-2.2-.3-4.5-1.1-4.5-4.8 0-1.1.4-2 1-2.7-.1-.3-.4-1.3.1-2.7 0 0 .8-.3 2.8 1a9.7 9.7 0 0 1 5.1 0c2-1.3 2.8-1 2.8-1 .5 1.4.2 2.4.1 2.7.6.7 1 1.6 1 2.7 0 3.7-2.3 4.5-4.5 4.8.4.3.7.9.7 1.8v2.7c0 .3.2.6.7.5A9.5 9.5 0 0 0 12 2.5Z"
+        />
+      </svg>
+    </strong>
+    <span>GITHUB</span>
+  </a>
 
-        <a
-          href="https://x.com/sanjeevkummrr"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <strong>𝕏</strong>
-          <span>X / TWITTER</span>
-        </a>
-      </aside>
+  <i />
+
+  {/* X / Twitter */}
+  <a
+    href="https://x.com/sanjeevkummrr"
+    target="_blank"
+    rel="noreferrer"
+    aria-label="X / Twitter"
+  >
+    <strong className="social-icon">
+      <svg viewBox="0 0 24 24" aria-hidden="true">
+        <path d="M5 4l14 16" />
+        <path d="M19 4L5 20" />
+      </svg>
+    </strong>
+    <span>X / TWITTER</span>
+  </a>
+
+</aside>
 
       <div className="reveal-hint">◉ MOVE TO REVEAL</div>
     </main>
