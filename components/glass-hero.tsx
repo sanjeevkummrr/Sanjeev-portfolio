@@ -11,23 +11,23 @@ export default function GlassHero() {
 
   return (
     <main
-      className="hero"
-      onMouseMove={(e) => {
-        const rect = e.currentTarget.getBoundingClientRect();
+  className="hero"
+  onPointerMove={(e) => {
+    const rect = e.currentTarget.getBoundingClientRect();
 
-        setMouse({
-          x: ((e.clientX - rect.left) / rect.width) * 100,
-          y: ((e.clientY - rect.top) / rect.height) * 100,
-          active: true,
-        });
-      }}
-      onMouseLeave={() => {
-        setMouse((prev) => ({
-          ...prev,
-          active: false,
-        }));
-      }}
-    >
+    setMouse({
+      x: ((e.clientX - rect.left) / rect.width) * 100,
+      y: ((e.clientY - rect.top) / rect.height) * 100,
+      active: true,
+    });
+  }}
+  onPointerLeave={() => {
+    setMouse((prev) => ({
+      ...prev,
+      active: false,
+    }));
+  }}
+>
       {/* Base portrait */}
       <div className="portrait portrait-base" />
 
