@@ -123,24 +123,23 @@ export default function GlassHero() {
 
   <i />
 
-  {/* LinkedIn */}
-  <a
-    href="https://www.linkedin.com/in/sanjeevkummrr"
-    target="_blank"
-    rel="noreferrer"
-    aria-label="LinkedIn"
-  >
-    <strong className="social-icon linkedin-icon">
-      <svg viewBox="0 0 24 24" aria-hidden="true">
-        <rect x="3" y="3" width="18" height="18" rx="2" />
-        <path d="M7 10v7" />
-        <path d="M7 7.5v.01" />
-        <path d="M11 17v-4c0-2 1-3 2.5-3s2.5 1 2.5 3v4" />
-        <path d="M11 13c0-2 1-3 2.5-3" />
-      </svg>
-    </strong>
-    <span>LINKEDIN</span>
-  </a>
+  {/*Facebook*/}
+ <a
+  href="https://www.facebook.com/sanjeevkummrr"
+  target="_blank"
+  rel="noreferrer"
+  aria-label="Facebook"
+>
+  <strong className="social-icon">
+    <svg viewBox="0 0 24 24" aria-hidden="true">
+      <path
+        d="M14 8h3V4h-3c-2.8 0-5 2.2-5 5v3H6v4h3v4h4v-4h3l1-4h-4V9c0-.6.4-1 1-1Z"
+        fill="currentColor"
+      />
+    </svg>
+  </strong>
+  <span>FACEBOOK</span>
+</a>
 
   <i />
 
