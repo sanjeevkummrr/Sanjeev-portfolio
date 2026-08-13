@@ -11,7 +11,7 @@
 }
 
 * { box-sizing: border-box; }
-
+  
 html, body {
   margin: 0;
   width: 100%;
@@ -50,13 +50,13 @@ a { color: inherit; text-decoration: none; }
 
 .portrait-base {
   z-index: 1;
-  background-image: url("/images/Base_image_desktop.png");
+  background-image: url("/Sanjeev-portfolio/images/Base_image_desktop.png");
 }
 
 .portrait-reveal {
   z-index: 2;
   opacity: 0;
-  background-image: url("/images/Reveal_image_desktop.png");
+  background-image: url("/Sanjeev-portfolio/images/Reveal_image_desktop.png");
   transition: opacity .35s var(--ease);
   -webkit-mask-image: radial-gradient(
     circle var(--reveal-size) at var(--mouse-x) var(--mouse-y),
