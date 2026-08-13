@@ -1,39 +1,49 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 export default function GlassHero() {
-  const [position, setPosition] = useState({ x: 50, y: 50 });
-
-  useEffect(() => {
-    const handleMove = (event: MouseEvent) => {
-      setPosition({
-        x: (event.clientX / window.innerWidth) * 100,
-        y: (event.clientY / window.innerHeight) * 100,
-      });
-    };
-
-    window.addEventListener("mousemove", handleMove);
-
-    return () => {
-      window.removeEventListener("mousemove", handleMove);
-    };
-  }, []);
+  const [mouse, setMouse] = useState({
+    x: 50,
+    y: 50,
+    active: false,
+  });
 
   return (
-    <main className="hero">
-      {/* Base image */}
+    <main
+      className="hero"
+      onMouseMove={(e) => {
+        const rect = e.currentTarget.getBoundingClientRect();
+
+        setMouse({
+          x: ((e.clientX - rect.left) / rect.width) * 100,
+          y: ((e.clientY - rect.top) / rect.height) * 100,
+          active: true,
+        });
+      }}
+      onMouseLeave={() => {
+        setMouse((prev) => ({
+          ...prev,
+          active: false,
+        }));
+      }}
+    >
+      {/* Base portrait */}
       <div className="portrait portrait-base" />
 
-      {/* Liquid glass reveal */}
+      {/* Smooth liquid-glass reveal */}
       <div
-        className="portrait portrait-reveal"
-        style={{
-          clipPath: `circle(150px at ${position.x}% ${position.y}%)`,
-        }}
+        className={`portrait portrait-reveal ${
+          mouse.active ? "reveal-active" : ""
+        }`}
+        style={
+          {
+            "--mouse-x": `${mouse.x}%`,
+            "--mouse-y": `${mouse.y}%`,
+          } as React.CSSProperties
+        }
       />
 
-      {/* Technical circle */}
       <div className="technical-circle" />
 
       {/* Top left */}
@@ -44,15 +54,13 @@ export default function GlassHero() {
         <span>2026</span>
       </div>
 
-      {/* Top right */}
+      {/* LinkedIn */}
       <a
-  className="top-link"
-  href="https://www.linkedin.com/in/sanjeevkummrr"
-  target="_blank"
-  rel="noreferrer"
->
-  LINKEDIN <span>↗</span>
-</a>
+        className="top-link"
+        href="https://www.linkedin.com/in/sanjeevkummrr"
+        target="_blank"
+        rel="noreferrer"
+      >
         LINKEDIN <span>↗</span>
       </a>
 
@@ -78,10 +86,7 @@ export default function GlassHero() {
         </p>
 
         <div className="bottom-info">
-          <a
-            href="mailto:sanjeevkumar@example.com"
-            className="connect-button"
-          >
+          <a href="mailto:sanjeevkumar@example.com" className="connect-button">
             LET&apos;S CONNECT <span>→</span>
           </a>
 
@@ -99,49 +104,48 @@ export default function GlassHero() {
       {/* Social links */}
       <aside className="social-links">
         <a
-  href="https://www.instagram.com/sanjeevkummrr"
-  target="_blank"
-  rel="noreferrer"
->
-  <strong>◎</strong>
-  <span>INSTAGRAM</span>
-</a>
+          href="https://www.instagram.com/sanjeevkummrr"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <strong>◎</strong>
+          <span>INSTAGRAM</span>
+        </a>
 
-<i />
+        <i />
 
-<a
-  href="https://www.linkedin.com/in/sanjeevkummrr"
-  target="_blank"
-  rel="noreferrer"
->
-  <strong>in</strong>
-  <span>LINKEDIN</span>
-</a>
+        <a
+          href="https://www.linkedin.com/in/sanjeevkummrr"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <strong>in</strong>
+          <span>LINKEDIN</span>
+        </a>
 
-<i />
+        <i />
 
-<a
-  href="https://github.com/sanjeevkummrr"
-  target="_blank"
-  rel="noreferrer"
->
-  <strong>◉</strong>
-  <span>GITHUB</span>
-</a>
+        <a
+          href="https://github.com/sanjeevkummrr"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <strong>◉</strong>
+          <span>GITHUB</span>
+        </a>
 
-<i />
+        <i />
 
-<a
-  href="https://x.com/sanjeevkummrr"
-  target="_blank"
-  rel="noreferrer"
->
-  <strong>𝕏</strong>
-  <span>X / TWITTER</span>
-</a>
+        <a
+          href="https://x.com/sanjeevkummrr"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <strong>𝕏</strong>
+          <span>X / TWITTER</span>
+        </a>
       </aside>
 
-      {/* Bottom hint */}
       <div className="reveal-hint">◉ MOVE TO REVEAL</div>
     </main>
   );
