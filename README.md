@@ -2,151 +2,336 @@
 
 **Infrastructure Support Engineer | Production Support | IT Operations**
 
-A premium interactive personal portfolio built with Next.js, React, TypeScript and modern CSS.
+A modern, responsive personal portfolio built with **Next.js, React, TypeScript and CSS**, designed to showcase my professional experience, projects, technical skills and career journey.
 
-🌐 **Live Portfolio:** https://sanjeevkummrr.github.io/Sanjeev-portfolio/
-
----
-
-## About Me
-
-I'm **Sanjeev Kumar**, an Infrastructure Support Engineer at **HCL Technologies** with nearly 3 years of experience in infrastructure and production support.
-
-My experience includes 24x7 infrastructure monitoring, Incident Management, Change Management, Critical Incident Management, SLA-driven operations, stakeholder communication, Moogsoft monitoring and ServiceNow.
-
-Currently pursuing **Master of Computer Applications (MCA) from IGNOU**.
+🌐 **Live Portfolio:**
+https://sanjeevkummrr.github.io/Sanjeev-portfolio/
 
 ---
 
-## Experience
+## ✨ About
 
-**HCL Technologies**  
-Infrastructure Support / Production Support  
-**September 2023 — Present**
+I’m **Sanjeev Kumar**, an Infrastructure Support Engineer with nearly 3 years of experience in infrastructure and production support.
 
-- 24x7 production infrastructure monitoring
-- Critical Incident Management for P1/P2 incidents
-- Moogsoft event correlation and alert monitoring
-- ServiceNow incident management
-- Change Management and escalation management
-- Infrastructure health checks and performance monitoring
-- SLA-driven incident response
-- Backup and Disaster Recovery support
-- Technical documentation and stakeholder communication
+My professional experience includes:
+
+* 24x7 production infrastructure monitoring
+* Incident Management
+* Critical Incident Management
+* P1/P2 incident coordination
+* Change Management
+* SLA-driven operations
+* Moogsoft monitoring and event correlation
+* ServiceNow incident management
+* Infrastructure health and performance monitoring
+* Backup and Disaster Recovery support
+* Technical documentation and stakeholder communication
+
+I’m also pursuing my **Master of Computer Applications (MCA) from IGNOU**.
+
+Originally from **Varanasi, Uttar Pradesh**, my portfolio also reflects my journey in technology, infrastructure and continuous learning.
 
 ---
 
-## Education
+## 🚀 Portfolio Features
 
-**Master of Computer Applications (MCA)**  
-Indira Gandhi National Open University (IGNOU)  
+* Interactive full-screen hero section
+* Cursor-based image reveal effect
+* Fixed navigation bar
+* Smooth single-page scrolling
+* Active navigation highlight based on current section
+* Light / Dark mode
+* Responsive design for desktop and mobile
+* Interactive project cards
+* Technical skills section
+* Resume PDF viewer and download
+* Contact and social links
+* GitHub Pages deployment
+* Clean editorial / glass-inspired UI
+* Modern micro-interactions and hover effects
+
+---
+
+## 📌 Portfolio Sections
+
+### Home
+
+A visual introduction featuring my name, role, professional summary and HCL Technologies experience.
+
+### About
+
+Information about my background, professional focus, education and journey from Varanasi into IT infrastructure.
+
+### Experience
+
+Professional experience at **HCL Technologies** covering infrastructure support and production support activities.
+
+### Projects
+
+#### 01 — Personal Portfolio
+
+My personal portfolio website built using:
+
+* Next.js
+* React
+* TypeScript
+* CSS
+
+GitHub:
+https://github.com/sanjeevkummrr/Sanjeev-portfolio
+
+Live:
+https://sanjeevkummrr.github.io/Sanjeev-portfolio/
+
+#### 02 — Canteen Management System
+
+An academic project focused on:
+
+* Menu management
+* Order processing
+* Billing
+* Report generation
+* Inventory management
+* Financial reporting
+
+#### 03 — Birthday Celebration Website
+
+A creative responsive website built with:
+
+* HTML
+* CSS
+* JavaScript
+* Custom images
+* Background music
+* Animations
+
+GitHub:
+https://github.com/sanjeevkummrr/happiebirthdayy
+
+Live:
+https://sanjeevkummrr.github.io/happiebirthdayy/
+
+---
+
+## 🔮 Future Projects
+
+Projects planned as I continue expanding my technical skills:
+
+### Linux Infrastructure Lab
+
+A practical Linux environment focused on server administration, monitoring, networking and troubleshooting.
+
+### AWS Monitoring Dashboard
+
+A cloud monitoring project focused on infrastructure health, alerts and operational visibility using AWS.
+
+### Incident Management Dashboard
+
+A dashboard concept for tracking incidents, priority, SLA status, escalation and resolution metrics.
+
+---
+
+## 🛠️ Skills
+
+### Infrastructure & Operations
+
+* Infrastructure Operations
+* Production Support
+* Infrastructure Monitoring
+* Troubleshooting
+* Performance Monitoring
+* Windows Server Basics
+
+### IT Service Management
+
+* Incident Management
+* Critical Incident Management
+* Change Management
+* SLA Management
+* Escalation Management
+* Stakeholder Communication
+
+### Tools
+
+* ServiceNow
+* Moogsoft
+* GitHub
+* GitHub Actions
+* GitHub Pages
+
+### Development
+
+* Next.js
+* React
+* TypeScript
+* CSS
+* Git
+
+---
+
+## 🎓 Education
+
+**Master of Computer Applications (MCA)**
+Indira Gandhi National Open University (IGNOU)
 2024 — 2026
 
-**Bachelor of Computer Applications (BCA)**  
-Rajarshi School of Management and Technology  
+**Bachelor of Computer Applications (BCA)**
+Rajarshi School of Management and Technology
 2019 — 2022
 
 ---
 
-## Tech Stack
+## 📄 Resume
 
-- Next.js
-- React
-- TypeScript
-- CSS
-- GitHub
-- GitHub Actions
-- GitHub Pages
+My complete professional resume is available directly through the portfolio.
 
----
+It includes:
 
-## Professional Skills
+* Professional Summary
+* Core Competencies
+* HCL Technologies Experience
+* Key Achievements
+* Education
+* Academic Project
+* Certifications
+* Leadership Experience
 
-- Infrastructure Operations
-- Production Support
-- Incident Management
-- Critical Incident Management
-- Change Management
-- SLA Management
-- Infrastructure Monitoring
-- Moogsoft
-- ServiceNow
-- Troubleshooting
-- Performance Monitoring
-- Backup & Disaster Recovery
-- Stakeholder Communication
+**Resume:**
+https://sanjeevkummrr.github.io/Sanjeev-portfolio/resume.pdf
 
 ---
 
-## Portfolio Features
+## 💻 Tech Stack
 
-✨ Premium editorial design  
-🧊 Interactive liquid-glass reveal  
-🖱️ Cursor-based interaction  
-📱 Responsive layout  
-⚡ Next.js App Router  
-🔷 TypeScript  
-🚀 GitHub Pages deployment  
-🔄 GitHub Actions CI/CD  
+| Technology     | Usage                  |
+| -------------- | ---------------------- |
+| Next.js        | Application framework  |
+| React          | UI development         |
+| TypeScript     | Type-safe development  |
+| CSS            | Styling and animations |
+| Git            | Version control        |
+| GitHub         | Source code hosting    |
+| GitHub Actions | CI/CD                  |
+| GitHub Pages   | Deployment             |
 
 ---
 
-## Project Structure
+## 📁 Project Structure
 
 ```text
 Sanjeev-portfolio/
+│
 ├── app/
 │   ├── globals.css
 │   ├── layout.tsx
 │   └── page.tsx
+│
 ├── components/
-│   └── glass-hero.tsx
+│   ├── glass-hero.tsx
+│   ├── Navbar.tsx
+│   └── ThemeToggle.tsx
+│
 ├── public/
-│   └── images/
-│       ├── Base_image_desktop.png
-│       └── Reveal_image_desktop.png
+│   ├── images/
+│   └── resume.pdf
+│
 ├── .github/
 │   └── workflows/
 │       └── deploy.yml
+│
 ├── next.config.ts
 ├── package.json
+├── package-lock.json
 ├── tsconfig.json
 └── README.md
+```
 
-Run Locally
+---
+
+## ⚙️ Run Locally
+
+Clone the repository:
+
+```bash
 git clone https://github.com/sanjeevkummrr/Sanjeev-portfolio.git
+```
+
+Move into the project:
+
+```bash
 cd Sanjeev-portfolio
+```
+
+Install dependencies:
+
+```bash
 npm install
+```
+
+Start the development server:
+
+```bash
 npm run dev
+```
 
 Open:
 
+```text
 http://localhost:3000
-Live Website
+```
 
-🌐 https://sanjeevkummrr.github.io/Sanjeev-portfolio/
+For GitHub Pages deployment, the project uses the configured base path:
 
-Connect With Me
+```text
+/Sanjeev-portfolio
+```
 
-💼 LinkedIn: https://www.linkedin.com/in/sanjeevkummrr/
+---
 
-🐙 GitHub: https://github.com/sanjeevkummrr
+## 🌐 Deployment
 
-📧 Email: snkumar3122000@gmail.com
+This portfolio is deployed using **GitHub Pages** with **GitHub Actions**.
 
-📸 Instagram: https://www.instagram.com/sanjeevkummrr/
+Every update pushed to the `main` branch can trigger the deployment workflow.
 
-𝕏 X / Twitter: https://x.com/sanjeevkummrr/
+Live website:
 
-Future Improvements
-Resume download
-Instagram integration
-X / Twitter integration
-Mobile-specific portrait assets
-Custom domain
-SEO optimization
-Favicon and Open Graph image
-License
+https://sanjeevkummrr.github.io/Sanjeev-portfolio/
+
+---
+
+## 🔗 Connect With Me
+
+**LinkedIn**
+https://www.linkedin.com/in/sanjeevkummrr/
+
+**GitHub**
+https://github.com/sanjeevkummrr
+
+**Instagram**
+https://www.instagram.com/sanjeevkummrr/
+
+**X / Twitter**
+https://x.com/sanjeevkummrr/
+
+**Email**
+[snkumar3122000@gmail.com](mailto:snkumar3122000@gmail.com)
+
+---
+
+## 🎯 Future Improvements
+
+* Advanced scroll-reveal animations
+* More infrastructure and cloud projects
+* Linux and AWS practical labs
+* Custom domain
+* SEO improvements
+* Favicon and Open Graph image
+* Additional portfolio integrations
+
+---
+
+## 📜 License
 
 This project is created for personal portfolio and professional showcase purposes.
 
