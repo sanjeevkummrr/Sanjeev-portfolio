@@ -2093,3 +2093,174 @@ h2 {
     margin-top: 40px;
   }
 }
+/* =========================================
+   DARK / LIGHT MODE
+   ========================================= */
+
+html {
+  transition:
+    background-color 0.35s ease,
+    color 0.35s ease;
+}
+
+body {
+  transition:
+    background-color 0.35s ease,
+    color 0.35s ease;
+}
+
+
+/* LIGHT MODE */
+
+html:not([data-theme="dark"]) body {
+  background: #edf5ff;
+  color: #101418;
+}
+
+
+/* DARK MODE */
+
+html[data-theme="dark"] body {
+  background: #0d1114;
+  color: #edf2f4;
+}
+
+
+/* Your scrolling sections */
+
+html[data-theme="dark"] .scroll-section {
+  background: #0d1114;
+  color: #edf2f4;
+}
+
+html[data-theme="dark"] .scroll-section h2 {
+  color: #ffffff;
+}
+
+html[data-theme="dark"] .scroll-section p {
+  color: #b8c0c5;
+}
+
+
+/* About cards */
+
+html[data-theme="dark"] .about-meta div {
+  background: #181d21;
+  border-color: rgba(255, 255, 255, 0.08);
+}
+
+html[data-theme="dark"] .about-meta strong,
+html[data-theme="dark"] .about-meta small {
+  color: #edf2f4;
+}
+
+
+/* Experience */
+
+html[data-theme="dark"] .scroll-experience-card {
+  background: #181d21;
+  border-color: rgba(255, 255, 255, 0.08);
+}
+
+html[data-theme="dark"] .scroll-experience-card h3 {
+  color: #ffffff;
+}
+
+html[data-theme="dark"] .scroll-experience-card p {
+  color: #aab3b8;
+}
+
+
+/* Projects */
+
+html[data-theme="dark"] .scroll-project-card {
+  background: #181d21;
+  border-color: rgba(255, 255, 255, 0.08);
+}
+
+html[data-theme="dark"] .scroll-project-card h3 {
+  color: #ffffff;
+}
+
+html[data-theme="dark"] .scroll-project-card p {
+  color: #aab3b8;
+}
+
+
+/* Future Projects */
+
+html[data-theme="dark"] .future-scroll-card {
+  background: #181d21;
+  border-color: rgba(255, 255, 255, 0.15);
+}
+
+html[data-theme="dark"] .future-scroll-card strong {
+  color: #ffffff;
+}
+
+
+/* Skills */
+
+html[data-theme="dark"] .scroll-skills span {
+  background: #181d21;
+  color: #edf2f4;
+  border-color: rgba(255, 255, 255, 0.12);
+}
+
+html[data-theme="dark"] .scroll-skills span:hover {
+  background: #a7c600;
+  color: #101418;
+}
+
+
+/* Resume button */
+
+html[data-theme="dark"] .section-button {
+  background: #a7c600;
+  color: #101418;
+}
+
+
+/* Navbar */
+
+html[data-theme="dark"] .site-navbar {
+  background: rgba(18, 22, 26, 0.9);
+  border-color: rgba(255, 255, 255, 0.08);
+}
+
+html[data-theme="dark"] .nav-link {
+  color: #dfe5e8;
+}
+
+html[data-theme="dark"] .nav-link.active {
+  background: #a7c600;
+  color: #101418;
+}
+
+
+/* Toggle button */
+
+html[data-theme="dark"] .theme-toggle {
+  background: #252c32;
+  color: #ffffff;
+}
+
+
+/* Smooth theme animation */
+
+.site-navbar,
+.nav-link,
+.theme-toggle,
+.scroll-section,
+.about-meta div,
+.scroll-experience-card,
+.scroll-project-card,
+.future-scroll-card,
+.scroll-skills span {
+  transition:
+    background-color 0.35s ease,
+    color 0.35s ease,
+    border-color 0.35s ease,
+    box-shadow 0.35s ease,
+    transform 0.25s ease;
+}
