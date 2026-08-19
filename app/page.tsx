@@ -185,7 +185,7 @@ export default function Home() {
           </p>
 
           <a
-            href="/Sanjeev-portfolio/resume.pdf"
+            href="/Sanjeev-portfolio/Resume.pdf"
             target="_blank"
             rel="noreferrer"
             className="section-button"
