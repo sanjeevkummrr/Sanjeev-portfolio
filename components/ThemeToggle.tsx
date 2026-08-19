@@ -6,20 +6,23 @@ export default function ThemeToggle() {
   const [dark, setDark] = useState(false);
 
   useEffect(() => {
-    const saved = localStorage.getItem("portfolio-theme");
+    const savedTheme = localStorage.getItem("portfolio-theme");
 
-    if (saved === "dark") {
-      setDark(true);
+    if (savedTheme === "dark") {
       document.documentElement.setAttribute("data-theme", "dark");
+      setDark(true);
+    } else {
+      document.documentElement.removeAttribute("data-theme");
+      setDark(false);
     }
   }, []);
 
   const toggleTheme = () => {
-    const next = !dark;
+    const nextDark = !dark;
 
-    setDark(next);
+    setDark(nextDark);
 
-    if (next) {
+    if (nextDark) {
       document.documentElement.setAttribute("data-theme", "dark");
       localStorage.setItem("portfolio-theme", "dark");
     } else {
@@ -30,10 +33,11 @@ export default function ThemeToggle() {
 
   return (
     <button
+      type="button"
       className="theme-toggle"
       onClick={toggleTheme}
-      aria-label="Toggle theme"
-      type="button"
+      aria-label="Toggle dark and light mode"
+      title={dark ? "Switch to light mode" : "Switch to dark mode"}
     >
       {dark ? "☀" : "☾"}
     </button>
